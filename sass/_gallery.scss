@@ -5,7 +5,8 @@
   grid-template-columns: repeat(22, 1fr);
   grid-template-rows: repeat(8, 4.5vw);
   grid-gap: 1.5rem;
-  padding: 1.5rem;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
 
   &__item {
     padding: 0;
@@ -24,7 +25,8 @@
     }
     &--4 {
       grid-row: 1 / span 7;
-      grid-column: 16 / span 5;
+      grid-column: 16 / span 7;
+      padding-right: 7rem;
     }
   }
 
