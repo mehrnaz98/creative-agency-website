@@ -183,7 +183,7 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  grid-column: full-start / col-end 5;
+  grid-column: full-start / col-end 3;
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
   align-content: center;
@@ -237,7 +237,7 @@ body {
 
 .powertrain {
   background-color: #274472;
-  grid-column: col-start 6 / full-end;
+  grid-column: col-start 4 / full-end;
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
   align-content: center; }

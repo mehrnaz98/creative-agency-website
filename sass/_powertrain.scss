@@ -1,6 +1,6 @@
 .powertrain {
   background-color: $color-primary-dark;
-  grid-column: col-start 6 / full-end;
+  grid-column: col-start 4 / full-end;
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
   align-content: center;
