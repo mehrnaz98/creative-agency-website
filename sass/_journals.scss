@@ -9,6 +9,8 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-template-rows: auto auto;
 
+  line-height: 19px;
+
   &__content {
     color: $color-white;
     margin-left: 0rem;
