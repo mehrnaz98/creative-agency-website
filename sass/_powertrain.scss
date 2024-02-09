@@ -1,5 +1,7 @@
 .powertrain {
-  background-color: $color-primary-dark;
+  background-image: url("../img/Component4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   grid-column: col-start 4 / full-end;
   display: grid;
   grid-template-columns: minmax(min-content, max-content);

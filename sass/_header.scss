@@ -1,17 +1,6 @@
 .header {
-  background-image: linear-gradient(
-      to right,
-      rgba($color-primary-dark, 0.6),
-      rgba($color-primary-dark, 0.6)
-    ),
-    url("../img/beetle-header.jpg");
-
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-
+  background-color: $color-secondary;
   grid-column: full-start / col-end 3;
-
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
   align-content: center;
@@ -22,12 +11,14 @@
   }
 
   &__title {
-    text-align: center;
-    color: $color-white;
+    text-align: left;
+    color: $color-primary-dark;
+
     &--main {
-      font-size: 3rem;
+      font-size: 10rem;
+      line-height: 87px;
       font-weight: 600;
-      text-transform: capitalize;
+      text-transform: lowercase;
       word-spacing: 0.4rem;
       letter-spacing: 0.2rem;
       padding: 0;

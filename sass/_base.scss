@@ -19,8 +19,8 @@ $color-black: #000000;
 $color-white: #ffffff;
 
 // FONT VARIABLES
-$font-primary: "Nunito", sans-serif;
-$font-display: "Josefin Sans", sans-serif;
+/*$font-primary: "Nunito", sans-serif;
+$font-display: "Josefin Sans", sans-serif;*/
 
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em; // 1200px
@@ -38,7 +38,8 @@ html {
 }
 
 body {
-  font-family: $font-primary;
+  // font-family: $font-primary;
+  font-family: Arial, Helvetica, sans-serif;
   color: $color-grey-dark-2;
   font-weight: 300;
   line-height: 1.6;
