@@ -1,0 +1,34 @@
+%heading {
+  font-family: $font-display;
+}
+
+.heading-primary {
+  @extend %heading;
+  font-weight: 600;
+  text-align: center;
+  color: $color-white;
+
+  &--dark {
+    color: $color-primary-dark;
+  }
+  &--main {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
+    padding: 0;
+    margin: 0;
+  }
+  &--sub {
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.heading-1 {
+  @extend %heading;
+  font-size: 2.2rem;
+  font-weight: 500;
+}

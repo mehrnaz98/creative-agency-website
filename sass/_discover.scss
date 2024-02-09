@@ -1,0 +1,62 @@
+.discover {
+  grid-column: center-start / center-end;
+
+  &__card {
+    color: $color-primary-dark;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    padding: 5rem 0;
+
+    &:nth-of-type(odd) {
+      direction: rtl;
+    }
+
+    &__img {
+      text-align: center;
+      img {
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+      }
+
+      div {
+        font-size: 2rem;
+        padding-top: 2rem;
+      }
+    }
+    &__content {
+      text-align: left;
+      padding: 0 5rem;
+      p {
+        font-size: 1.6rem;
+        font-weight: 300;
+      }
+    }
+  }
+
+  @media screen and (max-width: $bp-medium) {
+    &__card {
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      &__img {
+        div {
+          padding: 3rem 0;
+        }
+      }
+      &__content {
+        padding: 0 0.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: $bp-small) {
+    grid-column: full-start / full-end;
+    &__card {
+      &__content {
+        text-align: center;
+      }
+    }
+  }
+}

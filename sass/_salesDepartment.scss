@@ -1,0 +1,68 @@
+.saledep-container {
+  grid-column: full-start / full-end;
+  color: $color-primary-dark;
+  padding: 10rem 5rem;
+  text-align: center;
+
+  .saledep {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    grid-gap: 15rem 5rem;
+
+    .card-car {
+      display: grid;
+      justify-items: center;
+      font-size: 1.2rem;
+      padding: 0rem 3rem;
+      box-shadow: 0 4px 4px 1px rgba($color-black, 0.4);
+      border-radius: 0.7rem;
+      grid-template-rows: 20vh auto 10vh;
+      align-items: center;
+
+      &__img {
+        transform: translateY(-5rem);
+        border-radius: 0.7rem;
+        height: 100%;
+        width: 80%;
+
+        @media screen and (max-width: $bp-medium) {
+          width: 100%;
+        }
+
+        @media screen and (max-width: $bp-small) {
+          width: 80%;
+        }
+      }
+
+      &__price {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        grid-auto-rows: 3rem;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+        width: 100%;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+
+        div:nth-of-type(even) {
+          font-weight: 900;
+          font-size: 1.4rem;
+        }
+      }
+
+      &__btn {
+        a {
+          background-color: #ff6f59;
+          width: 50%;
+          padding: 0.8rem 6rem;
+          border-radius: 0.4rem;
+          color: white;
+          text-decoration: none;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.header {
+  background-image: linear-gradient(
+      to right,
+      rgba($color-primary-dark, 0.6),
+      rgba($color-primary-dark, 0.6)
+    ),
+    url("../img/beetle-header.jpg");
+
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  grid-column: full-start / col-end 5;
+
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content);
+  align-content: center;
+  justify-content: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
+
+  &__title {
+    text-align: center;
+    color: $color-white;
+    &--main {
+      font-size: 3rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      word-spacing: 0.4rem;
+      letter-spacing: 0.2rem;
+      padding: 0;
+      margin: 0;
+    }
+    &--sub {
+      font-size: 1.8rem;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
