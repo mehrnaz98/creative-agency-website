@@ -16,7 +16,7 @@ body {
 .container {
   display: grid;
   grid-template-rows: 80vh min-content repeat(4, min-content);
-  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(7, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
+  grid-template-columns: [sidebar-start] 18rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(7, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
   @media only screen and (max-width: 62.5em) {
     .container {
       grid-template-rows: 6rem 80vh min-content repeat(4, min-content);
@@ -193,18 +193,22 @@ body {
     text-align: left;
     color: #274472; }
     .header__title--main {
-      font-size: 10rem;
+      font-size: 11rem;
       line-height: 87px;
-      font-weight: 600;
+      font-weight: 500;
       text-transform: lowercase;
       word-spacing: 0.4rem;
       letter-spacing: 0.2rem;
       padding: 0;
       margin: 0; }
     .header__title--sub {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       padding: 0;
-      margin: 0; }
+      margin: 0;
+      padding-top: 2rem; }
+      .header__title--sub--icon {
+        font-size: 7rem;
+        padding-right: 3rem; }
 
 .journal {
   padding: 10rem 0;
