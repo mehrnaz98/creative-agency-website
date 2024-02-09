@@ -1,6 +1,8 @@
 .journal {
+  background-color: $color-primary-dark;
   padding: 10rem 0;
-  grid-column: center-start / center-end;
+  //grid-column: center-start / center-end;
+  grid-column: full-start / full-end;
 
   display: grid;
   // grid-template-columns: repeat(3, 1fr);
@@ -8,6 +10,7 @@
   grid-template-rows: auto auto;
 
   &__content {
+    color: $color-white;
     &--title {
       font-size: 2rem;
       font-weight: 600;
