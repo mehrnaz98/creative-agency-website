@@ -1,4 +1,4 @@
-.powertrain {
+.introPicture {
   background-image: url("../img/Component4.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -6,13 +6,6 @@
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
   align-content: center;
-  &--engine {
-    list-style: none;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 2.3;
-  }
 
   @media only screen and (max-width: $bp-medium) {
     grid-column: 1 / -1;
