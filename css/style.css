@@ -313,7 +313,19 @@ body {
   @media only screen and (max-width: 62.5em) {
     .nav-btn {
       margin-top: 0;
-      margin-right: 4rem; } }
+      margin-right: 4rem;
+      height: 2px;
+      width: 4.5rem; }
+      .nav-btn::before, .nav-btn::after {
+        background-color: #c3e0e5;
+        height: 1.5px;
+        width: 4.5rem;
+        content: "";
+        display: block; }
+      .nav-btn::before {
+        transform: translateY(-5.8rem); }
+      .nav-btn::after {
+        transform: translateY(-15.5rem); } }
 
 .heading-primary {
   font-weight: 600;

@@ -48,5 +48,23 @@
   @media only screen and (max-width: $bp-large) {
     margin-top: 0;
     margin-right: 4rem;
+    height: 2px;
+    width: 4.5rem;
+
+    &::before,
+    &::after {
+      background-color: $color-secondary;
+      height: 1.5px;
+      width: 4.5rem;
+      content: "";
+      display: block;
+    }
+
+    &::before {
+      transform: translateY(-5.8rem);
+    }
+    &::after {
+      transform: translateY(-15.5rem);
+    }
   }
 }
