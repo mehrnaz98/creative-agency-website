@@ -38,6 +38,10 @@
     &__content {
       text-align: center;
       padding: 0 5rem;
+      &--2 {
+        margin-left: 8rem;
+        margin-right: -6rem;
+      }
       p {
         font-size: 1.6rem;
         font-weight: 400;
