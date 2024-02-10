@@ -12,11 +12,11 @@
     color: $color-primary-dark;
   }
   &--main {
-    font-size: 6rem;
-    font-weight: 500;
+    font-size: 11.5rem;
+    font-weight: 400;
     text-transform: capitalize;
-    padding: 0;
-    margin: 0;
+    margin-top: 16rem;
+    margin-bottom: -3rem;
   }
   &--sub {
     font-size: 1.8rem;
@@ -28,5 +28,5 @@
 .heading-1 {
   // @extend %heading;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 601;
 }

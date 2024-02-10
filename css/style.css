@@ -27,6 +27,13 @@ body {
 
 .discover {
   grid-column: center-start / center-end; }
+  .discover__heading {
+    font-size: 6rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 16rem;
+    margin-bottom: -5rem;
+    text-align: center; }
   .discover__card {
     color: #274472;
     display: grid;
@@ -43,8 +50,8 @@ body {
       .discover__card__img--2 {
         margin-left: -36rem; }
       .discover__card__img img {
-        height: 200px;
-        width: 200px;
+        height: 220px;
+        width: 220px;
         border-radius: 100%;
         object-fit: cover; }
       .discover__card__img div {
@@ -53,6 +60,8 @@ body {
     .discover__card__content {
       text-align: center;
       padding: 0 5rem; }
+      .discover__card__content--1, .discover__card__content--3 {
+        margin-left: -3rem; }
       .discover__card__content--2 {
         margin-left: 8rem;
         margin-right: -6rem; }
@@ -313,11 +322,11 @@ body {
   .heading-primary--dark {
     color: #274472; }
   .heading-primary--main {
-    font-size: 6rem;
-    font-weight: 500;
+    font-size: 11.5rem;
+    font-weight: 400;
     text-transform: capitalize;
-    padding: 0;
-    margin: 0; }
+    margin-top: 16rem;
+    margin-bottom: -3rem; }
   .heading-primary--sub {
     font-size: 1.8rem;
     padding: 0;
@@ -325,4 +334,4 @@ body {
 
 .heading-1 {
   font-size: 2rem;
-  font-weight: 700; }
+  font-weight: 601; }
