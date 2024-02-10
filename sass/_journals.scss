@@ -77,9 +77,28 @@
       &--1,
       &--2,
       &--3,
-      &--4 {
+      &--4,
+      &--5,
+      &--6 {
         grid-column: auto;
         grid-row: auto;
+        margin-right: 2rem;
+      }
+    }
+
+    @media screen and (max-width: $bp-medium) {
+      grid-gap: 2rem;
+    }
+
+    @media screen and (max-width: $bp-small) {
+      &--1,
+      &--2,
+      &--3,
+      &--4,
+      &--5,
+      &--6 {
+        margin-right: -6rem;
+        margin-left: -6rem;
       }
     }
   }

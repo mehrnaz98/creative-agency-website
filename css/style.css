@@ -258,9 +258,17 @@ body {
     @media screen and (max-width: 62.5em) {
       .journal__content {
         grid-gap: 1rem; }
-        .journal__content--1, .journal__content--2, .journal__content--3, .journal__content--4 {
+        .journal__content--1, .journal__content--2, .journal__content--3, .journal__content--4, .journal__content--5, .journal__content--6 {
           grid-column: auto;
-          grid-row: auto; } }
+          grid-row: auto;
+          margin-right: 2rem; } }
+    @media screen and (max-width: 50em) {
+      .journal__content {
+        grid-gap: 2rem; } }
+    @media screen and (max-width: 37.5em) {
+      .journal__content--1, .journal__content--2, .journal__content--3, .journal__content--4, .journal__content--5, .journal__content--6 {
+        margin-right: -6rem;
+        margin-left: -6rem; } }
 
 .introPicture {
   background-image: url("../img/Component4.png");
