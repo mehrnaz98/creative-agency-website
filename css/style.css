@@ -290,9 +290,15 @@ body {
       .journal__content {
         grid-gap: 2rem; } }
     @media screen and (max-width: 37.5em) {
+      .journal__content--list {
+        padding-left: 0; }
       .journal__content--1, .journal__content--2, .journal__content--3, .journal__content--4, .journal__content--5, .journal__content--6 {
         margin-right: -6rem;
         margin-left: -6rem; } }
+    @media screen and (max-width: 26.8em) {
+      .journal__content--list {
+        padding-right: 8rem;
+        margin-left: -3rem; } }
 
 .introPicture {
   background-image: url("../img/Component4.png");
