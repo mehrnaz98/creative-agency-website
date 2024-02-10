@@ -200,7 +200,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-template-rows: auto auto;
-  line-height: 19px; }
+  line-height: 19px;
+  margin-top: -3rem; }
   .journal__content {
     color: #ffffff;
     margin-left: 0rem; }
