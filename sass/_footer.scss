@@ -24,6 +24,14 @@
   padding-top: 2.5rem;
   font-weight: 500;
 
+  @media only screen and (max-width: $bp-small) {
+    margin-left: 0.5rem;
+  }
+
+  @media only screen and (max-width: $bp-smaller) {
+    margin-left: -0.5rem;
+  }
+
   &__link:link,
   &__link:visited {
     position: relative;
