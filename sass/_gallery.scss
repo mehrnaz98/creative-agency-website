@@ -29,6 +29,10 @@
       padding-right: 10rem;
       margin-top: 1rem;
       margin-bottom: -3rem;
+
+      @media screen and (max-width: $bp-medium) {
+        padding-right: 1rem;
+      }
     }
   }
 

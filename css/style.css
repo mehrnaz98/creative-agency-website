@@ -68,18 +68,39 @@ body {
       .discover__card__content p {
         font-size: 1.6rem;
         font-weight: 400; }
+  @media screen and (max-width: 62.5em) {
+    .discover__card__content {
+      padding: 0 0rem; }
+      .discover__card__content--1, .discover__card__content--3 {
+        margin-left: 0rem;
+        margin-right: -12rem; }
+      .discover__card__content--2 {
+        margin-left: 0rem;
+        margin-right: 0rem; } }
   @media screen and (max-width: 50em) {
     .discover__card {
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
       .discover__card__img div {
         padding: 3rem 0; }
+      .discover__card__img--1, .discover__card__img--3 {
+        margin-right: 0rem;
+        margin-left: 0rem; }
+      .discover__card__img--2 {
+        margin-left: 0rem; }
       .discover__card__content {
-        padding: 0 0.5rem; } }
+        padding: 0 0.5rem; }
+        .discover__card__content--2 {
+          margin-left: 0rem;
+          margin-right: 0rem; } }
   @media screen and (max-width: 37.5em) {
     .discover {
       grid-column: full-start / full-end; }
+      .discover__heading {
+        font-size: 4rem;
+        margin-bottom: 2rem; }
       .discover__card__content {
-        text-align: center; } }
+        text-align: center;
+        margin-right: 0rem; } }
 
 .footer {
   background-color: #274472;
@@ -166,6 +187,9 @@ body {
       padding-right: 10rem;
       margin-top: 1rem;
       margin-bottom: -3rem; }
+      @media screen and (max-width: 50em) {
+        .gallery__item--4 {
+          padding-right: 1rem; } }
   .gallery__img {
     height: 100%;
     width: 100%;
