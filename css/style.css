@@ -190,12 +190,12 @@ body {
     .gallery__item--4 {
       grid-row: 1 / span 8;
       grid-column: 15 / span 8;
-      padding-right: 10rem;
+      padding-right: 7rem;
       margin-top: 1rem;
       margin-bottom: -3rem; }
       @media screen and (max-width: 50em) {
         .gallery__item--4 {
-          padding-right: 1rem; } }
+          padding-right: 2rem; } }
   .gallery__img {
     height: 100%;
     width: 100%;

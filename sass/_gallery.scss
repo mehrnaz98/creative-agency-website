@@ -26,12 +26,12 @@
     &--4 {
       grid-row: 1 / span 8;
       grid-column: 15 / span 8;
-      padding-right: 10rem;
+      padding-right: 7rem;
       margin-top: 1rem;
       margin-bottom: -3rem;
 
       @media screen and (max-width: $bp-medium) {
-        padding-right: 1rem;
+        padding-right: 2rem;
       }
     }
   }
