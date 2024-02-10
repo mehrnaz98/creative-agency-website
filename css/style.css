@@ -219,9 +219,11 @@ body {
       line-height: 87px;
       font-weight: 500;
       text-transform: lowercase;
-      word-spacing: 0.4rem;
       padding: 0;
       margin: 0; }
+      @media screen and (max-width: 37.5em) {
+        .header__title--main {
+          font-size: 9rem; } }
     .header__title--list {
       list-style: none;
       display: flex;
@@ -316,8 +318,7 @@ body {
   align-content: center; }
   @media only screen and (max-width: 50em) {
     .introPicture {
-      grid-column: 1 / -1;
-      justify-content: center; } }
+      display: none; } }
 
 .sidebar {
   background-color: #41729f;
