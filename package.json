@@ -1,12 +1,12 @@
 {
-  "name": "beetle",
+  "name": "creative-agency",
   "version": "1.0.0",
-  "description": "Beetle webpage",
+  "description": "Creative Agency webpage",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "Mahdi Tahavorgar",
+  "author": "Mehrnaz Eftekhari",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^9.0.0"

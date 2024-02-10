@@ -60,8 +60,12 @@ body {
     .discover__card__content {
       text-align: center;
       padding: 0 5rem; }
+      .discover__card__content .content-heading {
+        font-size: 2rem;
+        font-weight: 601; }
       .discover__card__content--1, .discover__card__content--3 {
-        margin-left: -3rem; }
+        margin-left: -1rem;
+        margin-right: -7rem; }
       .discover__card__content--2 {
         margin-left: 8rem;
         margin-right: -6rem; }
@@ -72,8 +76,7 @@ body {
     .discover__card__content {
       padding: 0 0rem; }
       .discover__card__content--1, .discover__card__content--3 {
-        margin-left: 0rem;
-        margin-right: -12rem; }
+        margin-left: 0rem; }
       .discover__card__content--2 {
         margin-left: 0rem;
         margin-right: 0rem; } }
@@ -391,4 +394,4 @@ body {
 
 .heading-1 {
   font-size: 2rem;
-  font-weight: 601; }
+  font-weight: 400; }
