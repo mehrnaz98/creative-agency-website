@@ -211,7 +211,7 @@ body {
   grid-template-columns: minmax(min-content, max-content);
   align-content: center;
   justify-content: center; }
-  @media only screen and (max-width: 50em) {
+  @media only screen and (max-width: 62.5em) {
     .header {
       grid-column: 1 / -1; } }
   .header__title {
@@ -319,7 +319,7 @@ body {
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
   align-content: center; }
-  @media only screen and (max-width: 50em) {
+  @media only screen and (max-width: 62.5em) {
     .introPicture {
       display: none; } }
 
